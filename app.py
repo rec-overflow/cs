@@ -23,8 +23,8 @@ def index():
                     <h2>Codes</h2>
                     {''.join('<p>' + msg + '</p>' for msg in messages)}
                     <a href="/delete">delete</a>
-                    <a href="https://pvl.pythonanywhere.com" style="position:absolute;bottom:1vh;right:1vw;">Change host</a>
                 </div>
+                <a href="https://pvl.pythonanywhere.com" style="position:absolute;bottom:1vh;right:1vw;">Change host</a>
             </body>
         </html>
 """
